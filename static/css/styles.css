@@ -1,0 +1,76 @@
+/*ARTICLE*/
+body{
+    font-size: 1em;
+}
+
+.container-fluid{
+    background-image: url("../images/oldtimer-4401342_1920.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-img{/*DIV-IMAGEN*/
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: transparent;
+}
+
+.tit-sub{/*DIV-TITULO*/
+    color: white;
+    padding: 20px 20px;
+}
+
+.tit-sub h1{/*DIV-TITULO*/
+    font-family: 'Anton', sans-serif;
+}
+
+
+
+.img-fluid{/*DIV-IMAGEN*/
+    width: 95%;
+}
+.principal{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.principal h3{/*TIT-VIDA-FANGIO*/
+    font-family: 'Archivo Black', sans-serif;
+}
+section > div ul li{/*TRIBUTO*/
+    color: white;
+    margin-top: 20px;
+}
+section > div ul li span{/*TRIBUTO*/
+    font-family: 'Archivo Black', sans-serif;
+}
+#tribute-link{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.9rem;
+}
+p, h4{
+    color: white;
+}
+/*END ARTICLE*/
+
+/*RESPONSIVE DESIGN*/
+
+@media (min-width: 768px) and (max-width: 991px){
+#image{
+    height: 34.3em;
+}
+
+}
+@media (min-width: 576px) and (max-width: 767px){
+#image{
+    width: 90%;
+    height: auto;
+}
+}
+
+@media (max-width: 576px){
+    #image{
+        width: 80%;
+        height: auto;
+    }
+}
